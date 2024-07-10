@@ -56,12 +56,6 @@ const over = (stack) => () => {
   stack.push(stack[stack.length - 2]);
 };
 
-/**
- * @param {string} str
- * @returns {boolean}
- */
-const isCustomDefinition = (str) => {};
-
 export class Forth {
   /**
    * @type {number[]}
